@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+	public static void main (String[] args) {
+		Scanner in = new Scanner(System.in);
+		// Type your code here
+		// Type your code here
+      int n=in.nextInt();
+      if(n%100==0)
+      {
+        if(n%400==0)
+           System.out.print("Leap year");
+        else
+           System.out.print("Non Leap year");
+      }
+      else
+      {
+        if(n%4==0)
+           System.out.print("Leap year");
+        else
+           System.out.print("Non Leap year");
+      }
+    }
+}
